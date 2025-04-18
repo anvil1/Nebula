@@ -16,9 +16,9 @@
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "1345585774870921357",
+        "shortId": "1362938534528422029",
         "largeImageText": "Minefest - 1.20.1",
-        "largeImageKey": "minefest_logo"
+        "largeImageKey": "minefest"
       },
       "mainServer": false,
       "autoconnect": false,
