@@ -17,8 +17,8 @@
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "1345585774870921357",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "largeImageText": "Minefest - 1.20.1",
+        "largeImageKey": "minefest_logo"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -216,6 +216,16 @@
           }
         },
         {
+          "id": "de.keksuccino:drippyloadingscreen:3.0.12@jar",
+          "name": "Drippy Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 229458,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/drippyloadingscreen_fabric_3.0.12_MC_1.20.1.jar",
+            "MD5": "dd8594f4f5d3ef444c0de9dbf6f6a51a"
+          }
+        },
+        {
           "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.3@jar",
           "name": "Dynamic FPS",
           "type": "FabricMod",
@@ -243,6 +253,16 @@
             "size": 7159151,
             "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.2+kotlin.2.1.20.jar",
             "MD5": "a5c2953271eede6b0dded7a2bc3f09fe"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.5.0@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3270277,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fancymenu_fabric_3.5.0_MC_1.20.1.jar",
+            "MD5": "03c2d93750efe53ed3f569c09545c91e"
           }
         },
         {
