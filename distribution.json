@@ -1,0 +1,1235 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Minefest-1.20.1",
+      "name": "Minefest (Minecraft 1.20.1)",
+      "description": "Minefest Running Minecraft 1.20.1 (Fabric v0.16.13)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "1345585774870921357",
+        "largeImageText": "Minefest - 1.20.1",
+        "largeImageKey": "minefest_logo"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.13",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387633,
+            "MD5": "5cffbeb4848a035ce735295b1cc0e7fa",
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/net/fabricmc/fabric-loader/0.16.13/fabric-loader-0.16.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.13",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "b8b3a7f9a9d6a7c00df90b7912d7b16e",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/versions/1.20.1-fabric-0.16.13/1.20.1-fabric-0.16.13.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.cominixo:betterf3:7.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1782676,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/BetterF3-7.0.2-Fabric-1.20.1.jar",
+            "MD5": "acda45b22c255f78f3242056b1221c8e"
+          }
+        },
+        {
+          "id": "com.vladmarica:betterpingdisplay:1.1.1@jar",
+          "name": "Better Ping Display",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16226,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/BetterPingDisplay-Fabric-1.20.1-1.1.1.jar",
+            "MD5": "40daa668fb18e365eef2b71138186201"
+          }
+        },
+        {
+          "id": "com.ishland:c2me:0.2.0+alpha.11.16@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1426500,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar",
+            "MD5": "92a6600d0f05c7e70d92d459b3b9eba8"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.13@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77137,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/chat_heads-0.13.13-fabric-1.20.jar",
+            "MD5": "f09b3efe399b01679f1051cc8cd3295f"
+          }
+        },
+        {
+          "id": "com.chunksending:chunksending:1.20.1-2.8@jar",
+          "name": "Chunksending Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11318,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/chunksending-fabric-1.20.1-2.8.jar",
+            "MD5": "e0754cf0c89a2362d9cb91c897604cad"
+          }
+        },
+        {
+          "id": "com.clientcrafting:clientcrafting:1.20.1-1.8@jar",
+          "name": "Clientcrafting Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6641,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/clientcrafting-fabric-1.20.1-1.8.jar",
+            "MD5": "85bfa0492080d62328ce7e5661c998b2"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21987,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/Clumps-fabric-1.20.1-12.0.0.4.jar",
+            "MD5": "9bd27566262e06642637b78a6bc4fe8c"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25668,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/cupboard-fabric-1.20.1-2.7.jar",
+            "MD5": "a7a05a32b4a66d64c6c050666e16d744"
+          }
+        },
+        {
+          "id": "generated.fabricmod:dashloader:5.0.0-beta.2+1.20.0@jar",
+          "name": "DashLoader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5819388,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/dashloader-5.0.0-beta.2+1.20.0.jar",
+            "MD5": "eaedf409bbe209474c5b75283d58c020"
+          }
+        },
+        {
+          "id": "de.keksuccino:drippyloadingscreen:3.0.12@jar",
+          "name": "Drippy Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 229458,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/drippyloadingscreen_fabric_3.0.12_MC_1.20.1.jar",
+            "MD5": "dd8594f4f5d3ef444c0de9dbf6f6a51a"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.3@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195047,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/dynamic-fps-3.9.3+minecraft-1.20.0-fabric.jar",
+            "MD5": "9672f80b493acaa879b5aa267da8ece0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.5+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107841,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fabric-api-0.92.5+1.20.1.jar",
+            "MD5": "9d6b286586e9d6b40ee161dee1dd271f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.2+kotlin.2.1.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7159151,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.2+kotlin.2.1.20.jar",
+            "MD5": "a5c2953271eede6b0dded7a2bc3f09fe"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.5.0@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3270277,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fancymenu_fabric_3.5.0_MC_1.20.1.jar",
+            "MD5": "03c2d93750efe53ed3f569c09545c91e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fastboot:1.2-fabric@jar",
+          "name": "FastBoot",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 30721,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fastboot-1.20.x-1.2fabric.jar",
+            "MD5": "663f75849a8fc1a0ff9606e944d0d17b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.6.9+1.20.1@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149833,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/fzzy_config-0.6.9+1.20.1.jar",
+            "MD5": "100871d6906d8029f3d0ae8828862548"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+          "name": "Gpu memory leak fix mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6949,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/gpumemleakfix-fabric-1.20.1-1.8.jar",
+            "MD5": "166ae7ae556227b7cfb74856b171ec74"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.36+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105382,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/indium-1.0.36+mc1.20.1.jar",
+            "MD5": "21cefdaa742e1f31ded4f85f55a0f41c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.1+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 572882,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/Jade-1.20-Fabric-11.13.1.jar",
+            "MD5": "746ebf9ff115af98bf7899a72f1e6aec"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1392720,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/jei-1.20.1-fabric-15.20.0.106.jar",
+            "MD5": "f2536f0f14f67847634ae70d3ca79348"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.1@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 892067,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/konkrete_fabric_1.8.1_MC_1.20.1.jar",
+            "MD5": "a816ca0f5272f0e60c745f7fe6bef1d6"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185895,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/krypton-0.2.3.jar",
+            "MD5": "3bf353c1ab576b57c003109c079e2ec8"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.3+1.20.1@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72285,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/language-reload-1.7.3+1.20.1.jar",
+            "MD5": "5836ba0cc01b179048e10eb0b4e400fb"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.3@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 706600,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.3.jar",
+            "MD5": "de6d394cedf7e33bfd4b03209156211a"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.3@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39696,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "MD5": "8095b46d324586b3cf3d2f5bffe8b417"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mcreator:minefest:1.0.0@jar",
+          "name": "Minefest",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 133787,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/minefest-1.0.0-fabric-1.20.1.jar",
+            "MD5": "5c7653ee78e374c309b9bc0df560da5e"
+          }
+        },
+        {
+          "id": "io.github.steveplays28:noisium:2.3.0+mc1.20-1.20.1@jar",
+          "name": "Noisium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214902,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/noisium-fabric-2.3.0+mc1.20-1.20.1.jar",
+            "MD5": "4aa425a04054e2c300a8bb816574653c"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.2.5+1.20.1@jar",
+          "name": "Particle Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 94842,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/particle_core-0.2.5+1.20.1.jar",
+            "MD5": "7c5afe6e11a3522f361d6cb90fb01968"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          }
+        },
+        {
+          "id": "com.soradgaming:simplehudenhanced:4.7.5@jar",
+          "name": "Simple Hud Enhanced",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1188397,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/simple-hud-enhanced+1.20-1.20.1-4.7.5.jar",
+            "MD5": "18ef78ab42ff859ad99bcf08433793c0"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.7.5@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 482699,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/skinlayers3d-fabric-1.7.5-mc1.20.1.jar",
+            "MD5": "036a07418c714de2b7596e4d35e12e5e"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652650,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/sodiumdynamiclights-fabric-1.0.10-1.20.1.jar",
+            "MD5": "a1b36ba87ada993c51fe5d38789d7504"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 657853,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+            "MD5": "39dcf7865bc46eaf3d446da02b29c3c5"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/optionaloff/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1294234,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+            "MD5": "b6960b2defbf8cb1b983cffd261089ba"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Fabric-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1396331,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/YungsApi-1.20-Fabric-4.0.6.jar",
+            "MD5": "25624d7157f4b60827c4b6d06c0b8fc0"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Fabric-3.0.3@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1063786,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
+            "MD5": "7dd4fec6982f0946575a4caab6248060"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Fabric-2.0.6@jar",
+          "name": "YUNG's Better End Island",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 517369,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+            "MD5": "1e64398f1d2ec1ea4049de391b51683d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Fabric-2.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 760974,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+            "MD5": "aefeee128bbae518186bd3d73c59c74a"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.20-Fabric-3.0.4@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1165832,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/fabricmods/required/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+            "MD5": "06c32808f70eaa9f41bcc01c09509229"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "e501a7a5f8af8093e878bef4317ca51d",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "aa.ogg",
+          "name": "aa.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 2120916,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/assets/aa.ogg",
+            "MD5": "89f68b6ce50217dd16d0c7a7eacafeed",
+            "path": "config/fancymenu/assets/aa.ogg"
+          }
+        },
+        {
+          "id": "crea.ogg",
+          "name": "crea.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 1807765,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/assets/crea.ogg",
+            "MD5": "2f09e283bc491551fb25c6f24a22c4bd",
+            "path": "config/fancymenu/assets/crea.ogg"
+          }
+        },
+        {
+          "id": "minefest2.png",
+          "name": "minefest2.png",
+          "type": "File",
+          "artifact": {
+            "size": 22169,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/assets/minefest2.png",
+            "MD5": "2fb7526c14c46143012be431bcf32294",
+            "path": "config/fancymenu/assets/minefest2.png"
+          }
+        },
+        {
+          "id": "new.ogg",
+          "name": "new.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 2631796,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/assets/new.ogg",
+            "MD5": "d02b8e82fbefe830d4769103e11d1174",
+            "path": "config/fancymenu/assets/new.ogg"
+          }
+        },
+        {
+          "id": "audio_element_controller_metas.json",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 2142,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/audio_element_controller_metas.json",
+            "MD5": "d33528fd07e55b19889cda0a83e75b0e",
+            "path": "config/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1635,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/config.txt",
+            "MD5": "872de25f053438c06d22c35cacd5f68a",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "6fdcbbc724e143e9d8fa2fe47e067ec5",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "accessibility_options_screen_layout.txt",
+          "name": "accessibility_options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7388,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/accessibility_options_screen_layout.txt",
+            "MD5": "9d350e0206dc95e464f8fc88b0034386",
+            "path": "config/fancymenu/customization/accessibility_options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "chat_options_screen_layout.txt",
+          "name": "chat_options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5410,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/chat_options_screen_layout.txt",
+            "MD5": "1ff640885e1a4580752a0d6f12f2486a",
+            "path": "config/fancymenu/customization/chat_options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "connect_screen_layout.txt",
+          "name": "connect_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4937,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/connect_screen_layout.txt",
+            "MD5": "e40c1b17ca74dddee637ac216baa7d56",
+            "path": "config/fancymenu/customization/connect_screen_layout.txt"
+          }
+        },
+        {
+          "id": "controls_screen_layout.txt",
+          "name": "controls_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17217,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/controls_screen_layout.txt",
+            "MD5": "d81473e02df480d0194a25dbc0acb6e2",
+            "path": "config/fancymenu/customization/controls_screen_layout.txt"
+          }
+        },
+        {
+          "id": "create_world_screen_layout.txt",
+          "name": "create_world_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17294,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/create_world_screen_layout.txt",
+            "MD5": "de509aad4a5a3d3e970c26cb52f66350",
+            "path": "config/fancymenu/customization/create_world_screen_layout.txt"
+          }
+        },
+        {
+          "id": "credits_and_attribution_screen_layout.txt",
+          "name": "credits_and_attribution_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 13294,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/credits_and_attribution_screen_layout.txt",
+            "MD5": "95d0bbdded9fd1a9e4ef656e47487d3a",
+            "path": "config/fancymenu/customization/credits_and_attribution_screen_layout.txt"
+          }
+        },
+        {
+          "id": "edit_game_rules_screen_layout.txt",
+          "name": "edit_game_rules_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7382,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/edit_game_rules_screen_layout.txt",
+            "MD5": "324e4b4588af14de555c5b039ab2791e",
+            "path": "config/fancymenu/customization/edit_game_rules_screen_layout.txt"
+          }
+        },
+        {
+          "id": "forgego.fma_layout.txt",
+          "name": "forgego.fma_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1133,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/forgego.fma_layout.txt",
+            "MD5": "06c046dedd9e55b3577792be6cb27f36",
+            "path": "config/fancymenu/customization/forgego.fma_layout.txt"
+          }
+        },
+        {
+          "id": "generic_dirt_message_screen_layout.txt",
+          "name": "generic_dirt_message_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2981,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/generic_dirt_message_screen_layout.txt",
+            "MD5": "233cfc55a29f8de5cd11b0dfa4c8c640",
+            "path": "config/fancymenu/customization/generic_dirt_message_screen_layout.txt"
+          }
+        },
+        {
+          "id": "join_multiplayer_screen_layout.txt",
+          "name": "join_multiplayer_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17229,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
+            "MD5": "821cb3dcbd4272a33e8226372a4b4383",
+            "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+          }
+        },
+        {
+          "id": "language_select_screen_layout.txt",
+          "name": "language_select_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7382,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/language_select_screen_layout.txt",
+            "MD5": "709f1273e870eb96ed5b721828ea9ee2",
+            "path": "config/fancymenu/customization/language_select_screen_layout.txt"
+          }
+        },
+        {
+          "id": "level_loading_screen_layout.txt",
+          "name": "level_loading_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4948,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/level_loading_screen_layout.txt",
+            "MD5": "0c8d72634803ca737248cec940de03dd",
+            "path": "config/fancymenu/customization/level_loading_screen_layout.txt"
+          }
+        },
+        {
+          "id": "mouse_settings_screen_layout.txt",
+          "name": "mouse_settings_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5412,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/mouse_settings_screen_layout.txt",
+            "MD5": "46e4f65a1027c16619ca6a97f21ff533",
+            "path": "config/fancymenu/customization/mouse_settings_screen_layout.txt"
+          }
+        },
+        {
+          "id": "net.minecraft.class_6599_layout.txt",
+          "name": "net.minecraft.class_6599_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7390,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/net.minecraft.class_6599_layout.txt",
+            "MD5": "444893229686d3a839df377f4919f189",
+            "path": "config/fancymenu/customization/net.minecraft.class_6599_layout.txt"
+          }
+        },
+        {
+          "id": "online_options_screen_layout.txt",
+          "name": "online_options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5412,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/online_options_screen_layout.txt",
+            "MD5": "d7ae2a79fa2f5cf3d6d37ecb664ae922",
+            "path": "config/fancymenu/customization/online_options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "options_screen_layout.txt",
+          "name": "options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 29031,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/options_screen_layout.txt",
+            "MD5": "de68cd2a4d5888819830b8507ff3de53",
+            "path": "config/fancymenu/customization/options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "pack_selection_screen_layout.txt",
+          "name": "pack_selection_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7381,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/pack_selection_screen_layout.txt",
+            "MD5": "8134ca9f85bc00d0d717442ba9ca45fb",
+            "path": "config/fancymenu/customization/pack_selection_screen_layout.txt"
+          }
+        },
+        {
+          "id": "pause_screen_layout.txt",
+          "name": "pause_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 20917,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/pause_screen_layout.txt",
+            "MD5": "f964340fa8141cd19cb2024c2fa545eb",
+            "path": "config/fancymenu/customization/pause_screen_layout.txt"
+          }
+        },
+        {
+          "id": "progress_screen_layout.txt",
+          "name": "progress_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4935,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/progress_screen_layout.txt",
+            "MD5": "477c84f448385b66396c96a74ef8f560",
+            "path": "config/fancymenu/customization/progress_screen_layout.txt"
+          }
+        },
+        {
+          "id": "receiving_level_screen_layout.txt",
+          "name": "receiving_level_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2988,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/receiving_level_screen_layout.txt",
+            "MD5": "1c83376e5d30b39b98546cf2ac9f03c6",
+            "path": "config/fancymenu/customization/receiving_level_screen_layout.txt"
+          }
+        },
+        {
+          "id": "skin_customization_screen_layout.txt",
+          "name": "skin_customization_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 21166,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/skin_customization_screen_layout.txt",
+            "MD5": "61826aeba44ccfd3dfde3b60a1d53e7a",
+            "path": "config/fancymenu/customization/skin_customization_screen_layout.txt"
+          }
+        },
+        {
+          "id": "sound_options_screen_layout.txt",
+          "name": "sound_options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5411,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/sound_options_screen_layout.txt",
+            "MD5": "7e58c1c4e1f43a748d5e5e2465e1f4a1",
+            "path": "config/fancymenu/customization/sound_options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "telemetry_info_screen_layout.txt",
+          "name": "telemetry_info_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17215,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/telemetry_info_screen_layout.txt",
+            "MD5": "4a4cde6ea62c2305d230fbc4548fe46a",
+            "path": "config/fancymenu/customization/telemetry_info_screen_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout_1.txt",
+          "name": "title_screen_layout_1.txt",
+          "type": "File",
+          "artifact": {
+            "size": 34283,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/title_screen_layout_1.txt",
+            "MD5": "85122467b3390c270961886e0c86dfdb",
+            "path": "config/fancymenu/customization/title_screen_layout_1.txt"
+          }
+        },
+        {
+          "id": "video_settings_screen_layout.txt",
+          "name": "video_settings_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5412,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/customization/video_settings_screen_layout.txt",
+            "MD5": "274229efb8f27bed1eedd83c8f324a3b",
+            "path": "config/fancymenu/customization/video_settings_screen_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "ba6b86d0ab5a97b042861214c6e617e1",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "config.cfg",
+          "name": "config.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/extensions/fmaudio/config.cfg",
+            "MD5": "9ab341528ec51f92869a1a9d02876c5d",
+            "path": "config/fancymenu/extensions/fmaudio/config.cfg"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 3163,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/extensions/fmaudio/locals/en_us.local",
+            "MD5": "eb6856d566c77403295e98668d10fe58",
+            "path": "config/fancymenu/extensions/fmaudio/locals/en_us.local"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "43a5ab1a30249caf7dafc2f7ad4b0ed9",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27376,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/de_de.local",
+            "MD5": "f43e602abc1b3081611a3ee39efa0bdd",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 114417,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/en_us.local",
+            "MD5": "37d24e28dc6e1027ef40720d8b629033",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 13858,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "22c68afab02c97f21832b904a5e4413c",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14283,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "9a91316e7c6e61a7a1e0874f34f77482",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "ru_ru.local",
+          "name": "ru_ru.local",
+          "type": "File",
+          "artifact": {
+            "size": 155574,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/ru_ru.local",
+            "MD5": "06d4d09969aa81e24ad92ab8d00b178c",
+            "path": "config/fancymenu/locals/ru_ru.local"
+          }
+        },
+        {
+          "id": "uk_ua.local",
+          "name": "uk_ua.local",
+          "type": "File",
+          "artifact": {
+            "size": 147984,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/uk_ua.local",
+            "MD5": "617020e85943f6f8e44662d128945f46",
+            "path": "config/fancymenu/locals/uk_ua.local"
+          }
+        },
+        {
+          "id": "zh_cn.local",
+          "name": "zh_cn.local",
+          "type": "File",
+          "artifact": {
+            "size": 52106,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/locals/zh_cn.local",
+            "MD5": "20a74fbf1560def5e5528b78fb30fbfe",
+            "path": "config/fancymenu/locals/zh_cn.local"
+          }
+        },
+        {
+          "id": "menu_identifiers.db",
+          "name": "menu_identifiers.db",
+          "type": "File",
+          "artifact": {
+            "size": 10497,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/menu_identifiers.db",
+            "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
+            "path": "config/fancymenu/menu_identifiers.db"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2071,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "701fe94369acb4cbac67b928b6452e4a",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "anvil.png",
+          "name": "anvil.png",
+          "type": "File",
+          "artifact": {
+            "size": 1604853,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/images/anvil.png",
+            "MD5": "6450a209c6c31fb7b206a813f857edfc",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/images/anvil.png"
+          }
+        },
+        {
+          "id": "fury.png",
+          "name": "fury.png",
+          "type": "File",
+          "artifact": {
+            "size": 3650127,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/images/fury.png",
+            "MD5": "561379b58c3871d09963d2b348c4b6dd",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/images/fury.png"
+          }
+        },
+        {
+          "id": "sacha.png",
+          "name": "sacha.png",
+          "type": "File",
+          "artifact": {
+            "size": 1140941,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/images/sacha.png",
+            "MD5": "4e757ac97d251f845459069dbc11fc36",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/images/sacha.png"
+          }
+        },
+        {
+          "id": "wagz.png",
+          "name": "wagz.png",
+          "type": "File",
+          "artifact": {
+            "size": 2580907,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/images/wagz.png",
+            "MD5": "e0e0aa3968334e62e92e7e2fde441523",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/images/wagz.png"
+          }
+        },
+        {
+          "id": "zeluck+sleazy.png",
+          "name": "zeluck+sleazy.png",
+          "type": "File",
+          "artifact": {
+            "size": 5295592,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/images/zeluck+sleazy.png",
+            "MD5": "5fd38e42d81b00a50031da2183f3468f",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/images/zeluck+sleazy.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 186,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/slideshows/slideshow%20by%20anvil0/properties.txt",
+            "MD5": "5c7f64f9e81cb0c2734b49d9deedcb48",
+            "path": "config/fancymenu/slideshows/slideshow by anvil0/properties.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 4133,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "3981f37966b00a80e31aac89169be280",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 4135,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://raw.githubusercontent.com/anvil1/Nebula/refs/heads/master/servers/Minefest-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        }
+      ]
+    }
+  ]
+}
