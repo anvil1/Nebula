@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = slideshow_by_anvil0
+   width = 3840
+   height = 2160
+   x = 0
+   y = 0
+   duration = 30.0
+   fadespeed = 2.0
+   randomize = true
+}
